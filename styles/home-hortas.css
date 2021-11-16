@@ -1,0 +1,44 @@
+.main-hortas {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-hortas-title {
+	background-color: #5fc287;
+	padding: 20px 60px;
+	border-radius: 15px;
+	font-size: 1.4rem;
+	font-family: "Fira Code";
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	color: white;
+	line-height: 1.5;
+}
+
+.main-hortas-text {
+	background-color: #5fc287b0;
+	border-radius: 15px;
+	padding: 30px;
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: "Fira Code";
+	max-width: 900px;
+	line-height: 1.2;
+	color: white;
+	transition: all 300ms;
+}
+
+.main-hortas-text:hover {
+	transform: scale(1.02);
+}
+
+.main-hortas-title.-ideias-hortas {
+	margin-top: 80px;
+}
+
+.main-hortas-text.-img {
+	margin: 40px;
+	margin-bottom: 10px;
+}

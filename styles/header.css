@@ -1,0 +1,47 @@
+.main-header {
+	height: 80px;
+	background-color: #72b561;
+	padding: 0 20px;
+	border-bottom: solid 5px #d0fb50;
+	margin-bottom: 50px;
+}
+
+.main-logo {
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-size: 1.3rem;
+	transition: transform 300ms;
+	font-family: "Fira Code";
+}
+
+.main-logo:hover {
+	cursor: pointer;
+}
+
+.header-btns {
+	display: flex;
+	text-justify: center;
+	align-items: center;
+}
+
+.header-btns > a {
+	border: none;
+	background-color: transparent;
+	color: white;
+	transition: 300ms;
+	font-size: 1.2rem;
+	padding: 32px;
+	font-family: "Fira Code";
+}
+
+.header-btns > a:hover {
+	cursor: pointer;
+	background-color: #d0fb50;
+	color: #72b561;
+}
+
+.main-header {
+	display: flex;
+	justify-content: space-between;
+}

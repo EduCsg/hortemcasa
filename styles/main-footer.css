@@ -1,0 +1,60 @@
+.main-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-top: solid 5px #d0fb50;
+	height: auto;
+	background-color: #72b561;
+	bottom: 0;
+	width: auto;
+	margin-top: 50px;
+	padding: 40px;
+}
+
+.main-footer.-fixed {
+	position: fixed; /*arrumar essa bomba aqui*/
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 40px 0;
+}
+
+.footer-left-content {
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
+}
+
+.location-img {
+	max-width: 30px;
+	max-height: 30px;
+	filter: brightness(0) invert(100%);
+}
+
+.footer-icon-text {
+	color: white;
+	font-family: "Fira Code";
+	margin-left: 15px;
+	font-size: 1.06rem;
+}
+
+.main-footer-center > p {
+	color: white;
+	font-family: "Fira Code";
+}
+
+.footer-center-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.footer-center-name {
+	font-size: 1.2rem;
+	line-height: 1.2;
+}
+
+.logo-polivalente {
+	max-width: 150px;
+	filter: brightness(0) invert(100);
+}
